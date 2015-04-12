@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head> <meta charset="utf-8" />
+		<title> Jessica Siano CS 290 Assignment 2 </title>
+	</head>
+<body>
+	<style>
+		dt:hover +dd{background-color:purple;}
+		#outer-content{text-align:left; background-color:pink; width:75%; margin-top:20px; padding:20px;}
+		#inner-content{background-color:blue; width:75%; margin-left:auto; margin-right:auto; text-align:center}
+	</style>
+
+	<table>
+	<caption> A Multiplication Table </caption>
+	<thead> 	<tr> <th> 		<th> 1 		 			<th> 2 	<th> 3 	<th> 4 	<th> 5
+	<tbody> 	<tr style="background-color:lightgreen"> <th> <i>1</i>	<td style="color:red"> 1 	<td> 2	<td style="color:blue"> 3	<td> 4	<td> 5
+			<tr style="background-color:lightblue"> <th> <i>2</i>	<td style="color:red"> 2 	<td> 4	<td style="color:blue"> 6	<td> 8	<td> 10
+			<tr style="background-color:lightgreen"> <th> <i>3</i>	<td style="color:red"> 3	<td> 6	<td style="color:blue"> 9 	<td> 12	<td> 15
+			<tr style="background-color:lightblue"> <th> <i>4</i>	<td style="color:red"> 4 	<td> 8	<td style="color:blue"> 12	<td> 16	<td> 20
+			<tr style="background-color:lightgreen"> <th> <i>5</i>	<td style="color:red"> 5 	<td> 10	<td style="color:blue"> 15	<td> 20	<td> 25
+	<tfoot>		<tr> <td colspan = "2">footer 1 <td colspan = "4"> footer 2
+	</table>
+
+	<dl> 	<dt> Favorite Author
+			<dd style="hover:purple"> Stephen King
+		<dt> Favorite Series
+			<dd> The Dark Tower
+		<dt> Favorite Book
+			<dd> Wizard and Glass
+	</dl>
+
+	<h2> Get Data</h2>
+	<form action = "http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method = "get">
+	<input type = "text" name = "text_input">
+	<br>
+	<input type = "number" name = "numerical_input">
+	<br>
+	<input type = "password" name = "password_input">
+	<br>
+	<input type = "radio" name = "candy" value = "Snickers">Snickers
+	<br>
+	<input type = "radio" name = "candy" value = "Skittles">Skittles
+	<br>
+	<input type = "radio" name = "candy" value = "Mentos">Mentos
+	<br>
+	<input type = "submit">
+	</form>
+
+	<h2> Put Data</h2>
+	<form action = "http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method = "put">
+	<input type = "text" name = "text_input">
+	<br>
+	<input type = "number" name = "numerical_input">
+	<br>
+	<input type = "password" name = "password_input">
+	<br>
+	<input type = "radio" name = "candy" value = "Snickers">Snickers
+	<br>
+	<input type = "radio" name = "candy" value = "Skittles">Skittles
+	<br>
+	<input type = "radio" name = "candy" value = "Mentos">Mentos
+	<br>
+	<input type = "submit">
+	</form>
+
+	<div id = "outer-content">
+		<div id = "inner-content">	
+			This is the text inside of the div elements.
+		</div>
+	</div>
+
+	<img src = "mathmeme.jpg" style = "width:100px; height:125px; float:left;">
+	I have been teaching high school math for around ten years now.  My favorite class to teach, by far and bar none, is calculus.
+	The content is amazing and my students are the smartest, nicest kids in the school.  They are respectful and hard working and we have a lot of fun together.
+	<br>I am still deciding whether I want to actually go in to the computer science field, or if I want to try to teach computer science at the college level.
+	it's a hard decision because I am not sure that teaching college will be as fulfilling for me, but I know working in an office won't be.  I have some time yet before I really need to think about it because I am going to try to get a master's degree one way or the other.			
+
+
+</body>
+</html>
